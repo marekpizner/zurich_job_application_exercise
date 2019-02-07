@@ -35,3 +35,4 @@ class FxExchanger:
                 return value / float(self.exchange_value[str(location)][str(int(year))])
         except Exception as e:
             print(e)
+            return value
